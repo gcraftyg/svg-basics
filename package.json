@@ -1,0 +1,14 @@
+{
+  "name": "svg-foos",
+  "version": "1.0.0",
+  "description": "The purpose of this is to demonstrate various ways that SVGs can be implemented.",
+  "main": "index.js",
+  "scripts": {
+    "sprite-foos": "svg-sprite --symbol --symbol-dest=dist/assets/ src/assets/svg/*.svg"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "svg-sprite": "^1.3.6"
+  }
+}
