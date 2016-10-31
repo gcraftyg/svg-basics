@@ -124,7 +124,7 @@
 					<ul>
 						<li class="fragment">Simple shapes are relatively easy to hand code</li>
 						<li class="fragment">Complex designs recommend using a vector graphic library such as Illustrator or Sketch</li>
-						<li class="fragment">Exports from libraries usually add unncessary cruft - optimization with <a href="https://www.npmjs.com/package/svgo">SVGO</a></li>
+						<li class="fragment">Exports from libraries usually add unnecessary cruft - optimization with <a href="https://www.npmjs.com/package/svgo">SVGO</a></li>
 						<li class="fragment">Slightly different style attributes/properties than familiar CSS properties</li>
 					</ul>
 				</section>
@@ -219,19 +219,26 @@
 					<h2>Icon Workflow</h2>
 				</section>
 
-
 				<section>
-					<h6>Icon Workflow with React</h6>
-					<ul>
-						<li>Export from Illustrator</li>
-						<li>svg-sprite</li>
-						<li>svg-go</li>
-						<li>&lt;Icon /&gt;</li>
-					</ul>
+					<h6>1. Export Icons from Illustrator</h6>
 				</section>
 
+				<section>
+					<h6>2. Use <a href="https://www.npmjs.com/package/svg-sprite" target="_blank">SVG Sprite</a> to combine</h6>
+				</section>
 
+				<section>
+					<h6>3. Use <a href="https://www.npmjs.com/package/svgo" target="_blank">SVGO</a> to optimize</h6>
+				</section>
 
+				<section>
+					<h6>4. Embed the sprite and reference</h6>
+				</section>
+
+				<section>
+					<h2>Icon System</h2>
+					&lt;Icon type="air-balloon" /&gt;
+				</section>
 			</div>
 
 		</div>
