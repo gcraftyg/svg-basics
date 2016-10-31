@@ -4,14 +4,16 @@
   "description": "The purpose of this is to demonstrate various ways that SVGs can be implemented.",
   "main": "index.js",
   "scripts": {
-    "sprite": "svg-sprite --symbol --symbol-dest=svg --symbol-sprite=sprite.svg --dest=dist/assets/ src/assets/svg/*.svg",
+    "sprite": "svg-sprite --symbol --symbol-dest=svg/ --symbol-sprite=reservoir-sprite.svg --dest=dist/assets/ src/assets/svg/reservoir/*.svg",
+    "sprite-o" : "svgo --enable=removeStyleElement dist/assets/svg/reservoir-sprite.svg dist/assets/svg/reservoir.min.svg",
     "browser": "open-cli 'file:///Users/greg.craft/workspace/asynchrony/ux-huddles/svg/dist/index.html'",
-    "build": "rm -rf dist && npm run sprite && cp src/index.html dist && npm run browser"
+    "build": "rm -rf dist && npm run sprite && npm run sprite-o && cp src/index.html dist && npm run browser"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "open-cli": "^1.0.5",
-    "svg-sprite": "^1.3.6"
+    "svg-sprite": "^1.3.6",
+    "svgo": "^0.7.1"
   }
 }
