@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>SVG Icons</title>
+
+		<meta name="description" content="SVG Icons">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>SVG</h1>
+					<h3>Scalable Vector Graphics</h3>
+				</section>
+
+				<section>
+					<h2>What?</h2>
+				</section>
+
+				<section>
+					<h2>Scalable Vector Graphics</h2>
+					<ul>
+						<li class="fragment">XML based markup language</li>
+						<li class="fragment">Used to generate vector graphics on the web</li>
+						<li class="fragment">Did you know that vectors scale without losing quality like raster images? It's true I read it in an internet</li>
+						<li class="fragment">Works with web standards like JS and CSS</li>
+						<li class="fragment">Accessibility support</li>
+						<li class="fragment">Complex Animations - Recommend looking at <a href="https://greensock.com/">GSAP</a> among others</li>
+						<li class="fragment">MDN Docs - <a href="https://developer.mozilla.org/en-US/docs/Web/SVG" target="_blank">https://developer.mozilla.org/en-US/docs/Web/SVG</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Great Support!</h2>
+					<img src="images/support.png" />
+				</section>
+
+				<section>
+					<p data-height="800" data-theme-id="0" data-slug-hash="LEQmwP" data-default-tab="result" data-user="chrisgannon" data-embed-version="2" data-pen-title="Diving SVG Animation" class="codepen">See the Pen <a href="http://codepen.io/chrisgannon/pen/LEQmwP/">Diving SVG Animation</a> by Chris Gannon (<a href="http://codepen.io/chrisgannon">@chrisgannon</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+				</section>
+
+				<section>
+					<p data-height="800" data-theme-id="0" data-slug-hash="oXLroX" data-default-tab="result" data-user="suez" data-embed-version="2" data-pen-title="Pull Down to Refresh (Paper Plane)" class="codepen">See the Pen <a href="http://codepen.io/suez/pen/oXLroX/">Pull Down to Refresh (Paper Plane)</a> by Nikolay Talanov (<a href="http://codepen.io/suez">@suez</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+				</section>
+
+				<section>
+					<p data-height="800" data-theme-id="0" data-slug-hash="EjVyXN" data-default-tab="result" data-user="chrisgannon" data-embed-version="2" data-pen-title="SVG Rainbow Rocket Man" class="codepen">See the Pen <a href="http://codepen.io/chrisgannon/pen/EjVyXN/">SVG Rainbow Rocket Man</a> by Chris Gannon (<a href="http://codepen.io/chrisgannon">@chrisgannon</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+				</section>
+
+				<section>
+					<p data-height="800" data-theme-id="0" data-slug-hash="ogOYJj" data-default-tab="result" data-user="sol0mka" data-embed-version="2" data-pen-title="·● MOTION for the web ●·" class="codepen">See the Pen <a href="http://codepen.io/sol0mka/pen/ogOYJj/">·● MOTION for the web ●·</a> by LegoMushroom (<a href="http://codepen.io/sol0mka">@sol0mka</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+				</section>
+
+				<section>
+					<p data-height="800" data-theme-id="0" data-slug-hash="yuBdq" data-default-tab="result" data-user="jjperezaguinaga" data-embed-version="2" data-pen-title="SVG Animation" class="codepen">See the Pen <a href="http://codepen.io/jjperezaguinaga/pen/yuBdq/">SVG Animation</a> by jjperezaguinaga (<a href="http://codepen.io/jjperezaguinaga">@jjperezaguinaga</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+				</section>
+
+				<section>
+					<h2>Great Job!</h2>
+					<img src="images/thumb.gif" />
+				</section>
+
+				<section>
+					<h2>Baby steps</h2>
+					<img src="images/basic.gif" />
+				</section>
+
+				<section>
+					<h2>Adding SVGs to your project</h2>
+				</section>
+
+				<section>
+					<h6>SVG Code</h6>
+					<div class="row">
+						<div class="col col-sm-12">
+							<pre><code data-trim contenteditable>
+					<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="si-glyph si-glyph-air-balloon">
+<!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
+	<title>Hot Air Balloon</title>
+	<defs></defs>
+	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<g transform="translate(4.000000, 0.000000)" fill="#434343">
+			<path d="M6.959,15.312 C6.959,15.686 6.656,15.99 6.281,15.99 L3.681,15.99 C3.308,15.99 3.005,15.686 3.005,15.312 L3.005,13.078 L6.958,13.078 L6.958,15.312 L6.959,15.312 Z" class="si-glyph-fill"></path>
+			<path d="M9.985,4.751 C9.985,2.982 9.095,1.044 6.976,0.305 C8.214,1.332 10.404,3.708 5.546,10.969 L5.974,0.155 C5.974,0.155 5.511,0.032 4.984,0.032 C4.472,0.032 4.043,0.145 4.043,0.145 L4.543,10.958 C-0.332,3.582 1.84,1.295 3.092,0.294 C0.954,1.027 0.016,2.977 0.016,4.751 C0.016,7.466 4.561,12 3.786,12 L6.292,12 C5.582,12 9.985,7.52 9.985,4.751 L9.985,4.751 Z" class="si-glyph-fill"></path>
+		</g>
+	</g>
+</svg>
+							</code></pre>
+					</div>
+				</div>
+				</section>
+
+				<section>
+					<h2>SVG Code</h2>
+					<ul>
+						<li class="fragment">Simple shapes are relatively easy to hand code</li>
+						<li class="fragment">Complex designs recommend using a vector graphic library such as Illustrator or Sketch</li>
+						<li class="fragment">Exports from libraries usually add unncessary cruft - optimization with <a href="https://www.npmjs.com/package/svgo">SVGO</a></li>
+						<li class="fragment">Slightly different style attributes/properties than familiar CSS properties</li>
+					</ul>
+				</section>
+
+				<section>
+					<h6>Inline SVG</h6>
+					<p data-height="600" data-theme-id="0" data-slug-hash="jMgNJz" data-default-tab="html,result" data-user="gcraftyg" data-embed-version="2" data-pen-title="Inline SVG" class="codepen">See the Pen <a href="http://codepen.io/gcraftyg/pen/jMgNJz/">Inline SVG</a> by Greg (<a href="http://codepen.io/gcraftyg">@gcraftyg</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+				</section>
+
+
+				<section>
+					<h6>Inline SVG</h6>
+					<ul>
+						<li>Complete styling control including individual shapes</li>
+						<li>Adds bloat to HTML</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h6>&lt;img /&gt;</h6>
+					<p data-height="600" data-theme-id="0" data-slug-hash="MjNWPg" data-default-tab="html,result" data-user="gcraftyg" data-embed-version="2" data-pen-title="SVG Img" class="codepen">See the Pen <a href="http://codepen.io/gcraftyg/pen/MjNWPg/">SVG Img</a> by Greg (<a href="http://codepen.io/gcraftyg">@gcraftyg</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+				</section>
+
+
+				<section>
+					<h6>&lt;img /&gt;</h6>
+					<ul>
+						<li>Easy to implement</li>
+						<li>Acts just like an .png/.jpg/.gif</li>
+						<li>Cannot be styled outside of the &lt;img /&gt; abilities</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h6>CSS Background-Image</h6>
+					<p data-height="600" data-theme-id="0" data-slug-hash="zKgGpM" data-default-tab="css,result" data-user="gcraftyg" data-embed-version="2" data-pen-title="Background SVG" class="codepen">See the Pen <a href="http://codepen.io/gcraftyg/pen/zKgGpM/">Background SVG</a> by Greg (<a href="http://codepen.io/gcraftyg">@gcraftyg</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+				</section>
+
+
+				<section>
+					<h6>CSS Background-Image</h6>
+					<ul>
+						<li>Maintained in CSS (no added markup bloat)</li>
+						<li>Limited styling control</li>
+						<li>Tricky for accessibility</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h6>Sprite (&lt;use /&gt;)</h6>
+					<p data-height="600" data-theme-id="0" data-slug-hash="bwXGyz" data-default-tab="html,result" data-user="gcraftyg" data-embed-version="2" data-pen-title="Sprite SVG" class="codepen">See the Pen <a href="http://codepen.io/gcraftyg/pen/bwXGyz/">Sprite SVG</a> by Greg (<a href="http://codepen.io/gcraftyg">@gcraftyg</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+				</section>
+
+
+				<section>
+					<h6>Sprite (&lt;use /&gt;)</h6>
+					<ul>
+						<li>Easy to implement with build step</li>
+						<li>CSS styling...cannot style individual shapes (thanks shadow-dom)</li>
+						<li>Great for icon systems</li>
+						<li>Does add bloat to HTML</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h6>Sprite External Reference</h6>
+					<p data-height="600" data-theme-id="0" data-slug-hash="ZpgGNm" data-default-tab="html,result" data-user="gcraftyg" data-embed-version="2" data-pen-title="External SVG" class="codepen">See the Pen <a href="http://codepen.io/gcraftyg/pen/ZpgGNm/">External SVG</a> by Greg (<a href="http://codepen.io/gcraftyg">@gcraftyg</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+				</section>
+
+
+				<section>
+					<h6>Sprite External Reference</h6>
+					<ul>
+						<li>Leverages caching</li>
+						<li>Easy to implement with build step</li>
+						<li>Does NOT add bloat to HTML</li>
+						<li>CSS styling...cannot style individual shapes</li>
+						<li>But...is NOT supported in IE 9 - 11</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Icon Workflow</h2>
+				</section>
+
+
+				<section>
+					<h6>Icon Workflow with React</h6>
+					<ul>
+						<li>Export from Illustrator</li>
+						<li>svg-sprite</li>
+						<li>svg-go</li>
+						<li>&lt;Icon /&gt;</li>
+					</ul>
+				</section>
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
