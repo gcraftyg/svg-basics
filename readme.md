@@ -25,12 +25,20 @@ While we all love to discuss the various differences between icon delivery as a 
 Add `<title>` and `<desc>` tags directly in the `<symbol>` for accessibility
 
 
-[CSS Tricks SVG Symbol](https://css-tricks.com/svg-symbol-good-choice-icons/)
+### Helfpul Links
+[CSS Tricks - SVG Symbol](https://css-tricks.com/svg-symbol-good-choice-icons/)
+
+[24 Ways - An Overview of SVG Sprite Creation Techniques](https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/)
+
+[CSS Tricks - Icon System with SVG Sprites](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)
+
+[CSS Tricks - SVG `use` with External Reference, Take 2](https://css-tricks.com/svg-use-with-external-reference-take-2/)
+
+[GitHub - Delivering Octicons with SVG](https://github.com/blog/2112-delivering-octicons-with-svg<)
+
+[Una - A Gulp-Based External SVG Symbol Sprite Icon System](http://una.im/svg-icons/)
 
 
+### The Wonderful World of SVG (Video)
 
-#### Things to cover
-1. Markup
-2. Styling / Adjusting Colors
-3. Animation
-4. Browser Support
+[Chris Coyier - The Wonderful World of SVG](https://www.youtube.com/watch?v=tsGa-gcckwY) talk at CSS Conf 2015 is a good overview of SVGs on the web.
